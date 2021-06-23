@@ -2,7 +2,8 @@
 
 score = [70,80,50,60,90,40]
 count=len(score)
-print("개수 : %d개" %count)
+#print("개수 : %d개" %count)
+print("개수 : {}개".format(count))
 
 #합계
 sum=0
@@ -10,7 +11,8 @@ for i in score:
     sum += i #sum = sum + i
     print("i=%d, sum=%d" %(i,sum))
     
-print("합계 : %d점" %sum)
+#print("합계 : %d점" %sum)
+print("합계 : {}점".format(sum))
 
 #평균
 avg=sum/len(score)
