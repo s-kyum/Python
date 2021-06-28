@@ -12,3 +12,5 @@ for i in range(1000):  #거북이 움직이는 횟수
     angle = r.randint(1,360) #거북이 방향(각도)
     t.setheading(angle)
     t.forward(30)
+
+t.mainloop()

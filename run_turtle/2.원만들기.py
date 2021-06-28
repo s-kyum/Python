@@ -11,3 +11,4 @@ for x in range(n):
     t.left(360/n)
 
 
+t.mainloop()

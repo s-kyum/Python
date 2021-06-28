@@ -26,3 +26,5 @@ t.color('blue')
 for i in range(2):
     t.circle(50)
     t.forward(50)
+
+t.mainloop()

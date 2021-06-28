@@ -35,3 +35,4 @@ t.forward(500)
 t.down()
 t.circle(50)
 
+t.mainloop()
