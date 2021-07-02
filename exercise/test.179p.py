@@ -31,3 +31,29 @@ print("you"+"need"+"python")
 print("you","need","python")
 print("".join(["you","need","python"]))
 
+#5문제
+
+with open("test.txt",'w') as f:
+    f.write("life is too short")
+
+with open("test.txt",'r') as f:
+    d = f.read()
+    print(d)
+
+#6문제
+user_input = input("저장할 내용을 입력하세요 : ")
+f = open('test.txt','a')
+f.write(user_input)
+f.write('\n')
+f.close()
+
+#7문제
+f=open('test.txt','r')
+body=f.read()
+f.close()
+
+body = body.replace('java','poketmon')
+
+f = open('test.txt','w')
+f.write(body)
+f.close()
