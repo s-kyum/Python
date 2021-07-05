@@ -6,8 +6,8 @@ def insert_data():
     conn  = getconn()
     cur = conn.cursor()
     #자료추가 - SQL
-    cur.execute("insert into member values ('꺼억',18)")   #수정되는게 아니라 추가됨
-    cur.execute("insert into member values ('즐라탄',55)")
+    cur.execute("insert into member values (103,'투레',40)")   #수정되는게 아니라 추가됨
+   # cur.execute("insert into member values (101,'강아지',55)")
     conn.commit()
     conn.close()
 

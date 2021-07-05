@@ -14,7 +14,7 @@ html_str="""
 """
 soup = BeautifulSoup(html_str,'html.parser')
 print(soup)
-ul = soup.find('ul')
+ul = soup.find('ul')  # find()는 맨처음 나오는 태그만 검색
 print(ul)
 
-print(ul.text)
+print(ul.text)  #태그를 뺴고 검색
